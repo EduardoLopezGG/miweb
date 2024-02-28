@@ -24,11 +24,9 @@ a{
 }
 a:hover{
 	color: #E5E5E5;
-	border-radius: 5px;
+	border-radius: 10px;
 }
-.a:hover{
-	background-color: #000000;
-}
+
 .opcion{
 	display: inline-block;
 	padding: 20px 60px;
@@ -36,14 +34,14 @@ a:hover{
 .opcion:hover{
 	background-color: #06538C;
 	border-radius: 10px;
-	transition: background-color 0.3s ease;
+	transition: background-color 0.5s ease;
 }
 .opcion:active{
 	background-color: #04426F;
 }
 .container{
 	width: 80%;
-	margin: 15px;
+	margin: 5px;
 }
 .articulo{
 	border: 1px solid #D6DCE0;
@@ -64,11 +62,30 @@ a:hover{
 .articulo h2, .articulo p{
 	padding: 5px;
 }
+aside{
+	background-color: red;
+	display: inline-block;
+	width: 15%;
+}
+
+
+
+
+
+
 footer{
 	background-color: #0f0f0f;
+	padding: 1.5rem;
+}
+.pie{
+	float: right;
+}
+footer a:hover{
+	background-color: #000000;
 }
 footer p, footer a{
 	display: inline-block;
 	padding: 15px;
 	color: white;
+	margin: 0;
 }
