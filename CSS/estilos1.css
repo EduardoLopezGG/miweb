@@ -1,0 +1,91 @@
+body{
+	font-family: verdana, genova, arial;
+	margin: 0;
+	background-color: #F5F5F5;
+}
+h1{
+	background-color: #20C5A7;
+	text-align: center;
+	padding: 25px;
+	color: #ebebeb;
+	margin: 0;
+}
+nav{
+	background-color: #0D6BB0;
+	margin: 0px 0px;
+}
+nav ul{
+	text-align: center;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: #E5E5E5;
+	border-radius: 10px;
+}
+
+.opcion{
+	display: inline-block;
+	padding: 20px 60px;
+}
+.opcion:hover{
+	background-color: #06538C;
+	border-radius: 10px;
+	transition: background-color 0.5s ease;
+}
+.opcion:active{
+	background-color: #04426F;
+}
+.container{
+	width: 80%;
+	margin: 5px;
+}
+.articulo{
+	border: 1px solid #D6DCE0;
+	border-radius: 5px;
+	margin: 1%;
+	text-align: center;
+	transition: box-shadow 0.3s ease;
+	display: inline-block;
+	width: 25%;
+	background-color: #ffffff;
+}
+.articulo:hover{
+	box-shadow: 1px 1px 5px gray;
+}
+.articulo img{
+	width: 100%;
+}
+.articulo h2, .articulo p{
+	padding: 5px;
+}
+aside{
+	background-color: red;
+	display: inline-block;
+	width: 15%;
+}
+
+
+
+
+
+
+footer{
+	background-color: #0f0f0f;
+	padding: 1.5rem;
+}
+.pie{
+	float: right;
+}
+footer a:hover{
+	background-color: #000000;
+}
+footer p, footer a{
+	display: inline-block;
+	padding: 15px;
+	color: white;
+	margin: 0;
+}
