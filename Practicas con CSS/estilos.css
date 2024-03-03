@@ -1,0 +1,12 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+.contact-form {
+	font-size: 25px;
+	background-color: #000;
+	width: 50vw;
+	height: 50vh;
+}
