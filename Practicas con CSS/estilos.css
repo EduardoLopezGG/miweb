@@ -2,7 +2,8 @@
 	font-family: cursive;
 	font-weight: 100;
 	font-size: 30px;
-	margin: 0;
+	margin: 0; 
+	box-sizing: border-box;
 }
 
 h2{
@@ -15,4 +16,19 @@ h2{
 }
 h2{
 	box-shadow: 2px 4px 15px 4px #565665;
+}
+.caja1, .caja2{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+.caja1{
+	background-color: red;
+	outline: 10px solid blue;
+}
+.caja2{
+	background-color: yellow;
+}
+input{
+	outline: none;
 }
