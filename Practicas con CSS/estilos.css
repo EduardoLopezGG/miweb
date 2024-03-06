@@ -1,16 +1,13 @@
 *{
 	font-family: cursive;
 	font-weight: 100;
-	font-size: 40px;
+	font-size: 20px;
 	margin: 0; 
 	box-sizing: border-box;
 }
 
-div{
-	margin: 100px;
-	width: 300px;
-	height: 250px;
-	border: 4px solid red;
-	background-color: grey;
-	overflow: scroll;
+.contenedor div{
+	width: 50%;
+	float: right;
+	padding: 20px;
 }
