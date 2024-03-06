@@ -1,23 +1,15 @@
 *{
 	font-family: cursive;
 	font-weight: 100;
-	font-size: 30px;
+	font-size: 40px;
 	margin: 0; 
 	box-sizing: border-box;
 }
-.contenedor{
-	width: 300px;
-	height: 300px;
-	background-color: blue;
-	margin: 40px;
-	position: relative;
+body{
+	padding-top: 100px;
 }
-.hijo{
-	background-color: orange;
-	width: 120px;
-	height: 120px;
-	position: relative;
-	top: -20px;
-	left: -20px;
-	z-index: -1;
+.contenedor{
+	background-color: red;
+	position: fixed;
+	margin: -100px;
 }
