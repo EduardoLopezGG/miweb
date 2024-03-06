@@ -5,11 +5,12 @@
 	margin: 0; 
 	box-sizing: border-box;
 }
-body{
-	padding-top: 100px;
-}
-.contenedor{
-	background-color: red;
-	position: fixed;
-	margin: -100px;
+
+div{
+	margin: 100px;
+	width: 300px;
+	height: 250px;
+	border: 4px solid red;
+	background-color: grey;
+	overflow: scroll;
 }
