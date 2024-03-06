@@ -41,3 +41,16 @@ input:focus{
 	background-color: white;
 	padding: 20px;
 }
+
+.caja{
+	margin: 25px;
+	width: 200px;
+	height: 300px;
+	background-color: grey;
+	border: 2px solid red;
+	background-color: pink;
+	cursor: pointer;
+}
+.caja:active{
+	cursor: copy;
+}
