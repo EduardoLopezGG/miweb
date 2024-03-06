@@ -18,3 +18,26 @@
 	width: 300px;
 	border: 3px solid blue;
 }
+.caja1:active{
+	background-color: black;
+	height: 300px;
+	width: 300px;
+	border: 3px solid white;
+	color: white;
+}
+input{
+	margin: 25px;
+	background-color: lightgrey;
+	transition: all 1s;
+}
+input:focus{
+	background-color: white;
+	padding: 20px;
+}
+.caja2{
+	margin: 25px;
+}
+.caja2 b:lang(en){
+	background-color: white;
+	padding: 20px;
+}
