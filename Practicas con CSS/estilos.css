@@ -5,23 +5,16 @@
 	margin: 0; 
 	box-sizing: border-box;
 }
-form{
-	margin: 100px auto;
-	display: block;
-	background-color: #555;
-	padding: 20px;
-	width: 50%;
-	border-radius: 5px;
+.caja1{
+	height: 200px;
+	width: 200px;
+	background-color: slateblue;
+	transition: all 1s;
+	border: 3px solid red;
 }
-input{
-	padding: 6px;
-	width: 100%
-}
-input::placeholder{
-	color:red;
-	font-size: 1.4em;
-}
-input::selection{
-	color:blue;
-	background-color: yellow;
+.caja1:hover{
+	background-color: darkslateblue;
+	height: 300px;
+	width: 300px;
+	border: 3px solid blue;
 }
