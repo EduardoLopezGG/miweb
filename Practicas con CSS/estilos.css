@@ -5,9 +5,23 @@
 	margin: 0; 
 	box-sizing: border-box;
 }
-
-.contenedor div{
-	width: 50%;
-	float: right;
+form{
+	margin: 100px auto;
+	display: block;
+	background-color: #555;
 	padding: 20px;
+	width: 50%;
+	border-radius: 5px;
+}
+input{
+	padding: 6px;
+	width: 100%
+}
+input::placeholder{
+	color:red;
+	font-size: 1.4em;
+}
+input::selection{
+	color:blue;
+	background-color: yellow;
 }
