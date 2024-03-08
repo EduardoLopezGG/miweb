@@ -1,56 +1,5 @@
 *{
 	font-family: cursive;
 	font-weight: 100;
-	font-size: 20px;
-	margin: 0; 
-	box-sizing: border-box;
-}
-.caja1{
-	height: 200px;
-	width: 200px;
-	background-color: slateblue;
-	transition: all 1s;
-	border: 3px solid red;
-}
-.caja1:hover{
-	background-color: darkslateblue;
-	height: 300px;
-	width: 300px;
-	border: 3px solid blue;
-}
-.caja1:active{
-	background-color: black;
-	height: 300px;
-	width: 300px;
-	border: 3px solid white;
-	color: white;
-}
-input{
-	margin: 25px;
-	background-color: lightgrey;
-	transition: all 1s;
-}
-input:focus{
-	background-color: white;
-	padding: 20px;
-}
-.caja2{
-	margin: 25px;
-}
-.caja2 b:lang(en){
-	background-color: white;
-	padding: 20px;
-}
-
-.caja{
-	margin: 25px;
-	width: 200px;
-	height: 300px;
-	background-color: grey;
-	border: 2px solid red;
-	background-color: pink;
-	cursor: pointer;
-}
-.caja:active{
-	cursor: copy;
+	margin:0;
 }
