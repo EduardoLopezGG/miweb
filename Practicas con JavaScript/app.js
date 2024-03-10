@@ -1,9 +1,12 @@
-let passwordDB = 'pepe123';
+let typeCard = 'Debid Card';
 
-let input = 'pepe13';
-
-if (passwordDB === input){
-	console.log("login correcto");
-} else{
-	console.log("login incorrecto");
+switch(typeCard) {
+	case 'Debid Card' :
+		console.log("this is a debid card");
+		break;
+	case 'Credit Card' :
+		console.log("this is a credit card");
+		break;
+	default:
+		console.log("no card");
 }
