@@ -1,6 +1,9 @@
-let numberOne = 60;
-let numberTwo = 100;
+let passwordDB = 'pepe123';
 
-let result = numberOne + numberTwo;
+let input = 'pepe13';
 
-console.log(result);
+if (passwordDB === input){
+	console.log("login correcto");
+} else{
+	console.log("login incorrecto");
+}
