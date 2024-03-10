@@ -1,5 +1,6 @@
-let names = ['ryan', 'joe', 'john'];
-
-for (let i = 0; i < names.length){
-
+function greeting(){
+	console.log("hello");
 }
+
+greeting();
+greeting();
