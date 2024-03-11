@@ -1,37 +1,14 @@
-function showFullName(){
-	return 'Ryan Ray'
-}
-
-const user = {
-	name: 'pepe', //properties
-	lastname: 'Perez', //properties
-	age: 30, //properties
-	showFullName() {
-		return this.name + " " + this.lastname
-	}
-}
-console.log(user.showFullName());
-
-//toda funcion que este dentro de 
-//un objeto (Object)
-//se convierte en metodo (Methods)
-
-const account = {
-	number : "123456789",
-	amount: 100,
-	deposit(quantity) {
-		this.amount = this.amount + quantity
-	},
-	withdraw(quantity) {
-		this.amount = this.amount - quantity
+function Person(){
+	this.name = ""
+	this.lastname = ""
+	this.age = 0
+	this.showFullName = function(){
+		return this.name + " "	+ this.lastname
 	}
 }
 
-account.deposit(100)
-account.deposit(10)
-account.deposit(50)
-console.log(account)
-
-account.withdraw(10)
-account.withdraw(200)
-console.log(account)
+const user1 = new Person()
+user1.name = "joe"
+user1.lastname = "mcmillan"
+console.log(user1.showFullName())
+console.log(user1)
