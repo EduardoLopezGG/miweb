@@ -1,17 +1,5 @@
-console.log( { } );
-
-let name = 'ryan';
-let lastname = 'ray';
-let age = 30;
-
 const user = {
-	name: 'ryan',
-	lastname: 'ray',
-	age: 30,
-	hobbies: ['read', 'programming', 'run'],
-	address: {
-		street: 'some street',
-		city:'london',
-	}
+	name: 'ryan', //properties
+	lastname: 'ray', //properties
+	age: 30 //properties
 }
-console.log(user);
