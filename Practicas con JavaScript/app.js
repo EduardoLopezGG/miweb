@@ -1,31 +1,22 @@
-const person = {
-	name: "fazt tech",
-	empleados: [],
-	sortempleados: function(){}
-}
-
-function Company (name){
-	let employees = []
-	this.name = name
-
-	this.getEmployees = function() {
-		return employees
-	}
-
-	this.addEmployees = function(employee){
-		employees.push(employee)
+class Person {
+	constructor(name, lastname){
+		this.name = name
+		this.lastname = lastname
+		this.age = null
 	}
 }
-const company = new Company("coca cola")
-const company2 = new Company("pepsi cola")
 
-console.log(company)
-console.log(company2)
+class Programmer extends Person{
+	constructor(name, lastname, language){
+		super(name, lastname);
+		this.language = language
+	}
+}
 
-company.addEmployees({name: "ryan"})
-company2.addEmployees({name: "joe"})
+const person = new Person("maria", "perez")
 
-console.log(company.getEmployees())
-console.log(company2.getEmployees())
+console.log(person)
 
-console.log(Company())
+const programmer = new Programmer("joe", "mcmillan", "python")
+
+console.log(programmer)
