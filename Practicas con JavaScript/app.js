@@ -1,9 +1,6 @@
-const user = {
-	name: "ryan",
-	lastname: "ray",
-	age: 30,
-	showname(){
-		return this.name;
-	},
+function Person() {
+	this.name = ""
+	this.lastname = ""
 }
-console.log(Object.values(user))
+const person = new Person()
+console.log(person)
