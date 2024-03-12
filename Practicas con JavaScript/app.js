@@ -1,22 +1,9 @@
-const company = {
-	name: "fazt tech",
-	empleados: []
-}
-
-class Person{
-	constructor(name, lastname){
-		this.name = name
-		this.lastname = lastname
+const person = {
+	name: "ryan",
+	lastname: "ray",
+	address: {
+		street: "123 baker street",
+		city: "london",
+		country: "united kingdom"
 	}
 }
-
-const john = new Person("john", "ray")
-const maria = new Person("maria", "perez")
-
-company.empleados.push(john)
-company.empleados.push(maria)
-
-console.log(maria)
-console.log(john)
-
-console.log(company)
