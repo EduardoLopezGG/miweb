@@ -3,15 +3,12 @@ class Person{
 		this.name = name
 		this.lastname = lastname
 	}
-
-	greet() {
-		return "hello i am " + this.name + " " + this.lastname
-	}
-
 }
 
-const user = new Person("joe", "mcmillan")
-const user2 = new Person("maria", "juana")
+const john = new Person("john", "ray")
+const maria = new Person("maria", "perez")
 
-console.log(user.greet())
-console.log(typeof user2.greet())
+maria.parent = john
+
+console.log(maria)
+console.log(john)
