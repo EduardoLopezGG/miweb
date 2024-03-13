@@ -1,12 +1,16 @@
-function countItems(x) {
-	return x.toString().length
-}
-console.log(countItems(10000))
-console.log(countItems("hola mundo"))
+function Stack(){
+	this.items = []
 
-function sumar(x = 0, y = 0, z = 0) {
-	return x + y + z
+	this.push = function(item) {
+		this.items.push(item)
+	}
 }
 
-console.log(sumar(10, 20))
-console.log(sumar(10, 20, 30))
+const stack = new Stack()
+stack.push("asdfasdfasdfads")
+
+const stack2 = new Stack()
+stack2.push(10000)
+
+console.log(stack)
+console.log(stack2)
